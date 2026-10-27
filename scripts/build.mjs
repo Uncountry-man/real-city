@@ -8,7 +8,7 @@ import { fileURLToPath } from "node:url";
 
 const root = resolve(fileURLToPath(new URL("..", import.meta.url)));
 const dist = join(root, "dist");
-const PUBLIC = ["index.html", "favicon.ico", "site.webmanifest", "assets"];
+const PUBLIC = ["index.html", "favicon.ico", "site.webmanifest", "robots.txt", "sitemap.xml", "assets"];
 
 const exists = (path) => stat(path).then(() => true, () => false);
 const errors = [];

@@ -65,13 +65,12 @@ def main():
         shot = Image.open(path).convert("RGB")
         save_resized(shot, name, (640, 1024, 1600))
 
-    # Imagem de compartilhamento 1200x630 a partir da captura da orla.
-    shot = Image.open(SCREENSHOTS["captura-orla"]).convert("RGB")
-    target_ratio = 1200 / 630
-    crop_w = round(shot.height * target_ratio)
-    left = (shot.width - crop_w) // 2
-    og = shot.crop((left, 0, left + crop_w, shot.height)).resize((1200, 630), Image.LANCZOS)
-    og.save(OUT / "og-real-city.jpg", "JPEG", quality=84, optimize=True, progressive=True)
+    # Imagem de compartilhamento 1200x630: arte oficial centralizada sobre ela mesma, borrada.
+    from PIL import ImageEnhance, ImageFilter
+    back = key_art.resize((1200, 1200), Image.LANCZOS).crop((0, 285, 1200, 915)).filter(ImageFilter.GaussianBlur(18))
+    back = ImageEnhance.Brightness(back).enhance(0.55)
+    back.paste(key_art.resize((630, 630), Image.LANCZOS), (285, 0))
+    back.save(OUT / "og-real-city.jpg", "JPEG", quality=86, optimize=True, progressive=True)
     grain()
 
 

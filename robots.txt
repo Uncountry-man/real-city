@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://uncountry-man.github.io/real-city/sitemap.xml
