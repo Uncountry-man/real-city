@@ -1170,5 +1170,5 @@ button { font: inherit; color: inherit; }
 /* Celular: menos ruído nos downloads e no hero */
 @media (max-width: 40rem) {
   .hero__platforms,
-  .status--pending { display: none; }
+  .status { display: none; }
 }
