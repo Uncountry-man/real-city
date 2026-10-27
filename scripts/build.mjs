@@ -8,7 +8,7 @@ import { fileURLToPath } from "node:url";
 
 const root = resolve(fileURLToPath(new URL("..", import.meta.url)));
 const dist = join(root, "dist");
-const PUBLIC = ["index.html", "favicon.ico", "site.webmanifest", "robots.txt", "sitemap.xml", "assets"];
+const PUBLIC = ["index.html", "favicon.ico", "site.webmanifest", "rules.html", "rules", "robots.txt", "sitemap.xml", "assets"];
 
 const exists = (path) => stat(path).then(() => true, () => false);
 const errors = [];
@@ -56,7 +56,8 @@ async function checkReferences(htmlPath) {
       continue;
     }
     files++;
-    if (!(await exists(join(dirname(htmlPath), ref)))) errors.push(`Arquivo não encontrado: ${ref}`);
+    const file = ref.split("#")[0].split("?")[0];
+    if (!(await exists(join(dirname(htmlPath), file)))) errors.push(`Arquivo não encontrado: ${ref}`);
   }
 
   const css = await readFile(join(dist, "assets/css/styles.css"), "utf8");
@@ -86,7 +87,9 @@ for (const name of ["main.js", "downloads.config.js"]) {
   if (name === "main.js") await writeFile(jsPath, stripJsComments(await readFile(jsPath, "utf8")));
 }
 
-const { files, anchors } = await checkReferences(join(dist, "index.html"));
+const pages = await Promise.all(["index.html", "rules.html"].map((name) => checkReferences(join(dist, name))));
+const files = pages.reduce((sum, p) => sum + p.files, 0);
+const anchors = pages.reduce((sum, p) => sum + p.anchors, 0);
 
 if (errors.length) {
   console.error(`Build com ${errors.length} erro(s):`);

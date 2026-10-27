@@ -22,6 +22,13 @@ Cada plataforma — `android`, `ios`, `windows` — tem seu próprio `url`.
 Com `url` vazio, a plataforma aparece como "Link ainda não publicado" e o botão fica desativado.
 `version`, `size` e `requirements` só aparecem quando preenchidos.
 
+## Regras (rules.html)
+
+A página lê os arquivos `rules/*.md` no navegador, então editar um `.md` já muda o texto no site (sem rebuild).
+Para trazer as versões mais novas da pasta de origem: `npm run rules [pasta]`
+(padrão: `~/Área de trabalho/rules/rules`). Ordem e rótulos da barra lateral ficam em `assets/js/rules.js` (`MODULES`).
+Para criar um módulo novo: adicione o `.md` em `rules/`, o nome em `MODULES` e em `scripts/sync-rules.mjs`.
+
 ## Estrutura
 
 ```
