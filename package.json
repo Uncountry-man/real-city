@@ -1,0 +1,16 @@
+{
+  "name": "real-city-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site oficial de download do Real City",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs . 5173",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs dist 4173",
+    "images": "python3 scripts/optimize-images.py"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
