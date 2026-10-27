@@ -1,4 +1,4 @@
-# 🏛️ Regras Gerais e Diretrizes do Capital City
+# 🏛️ Regras Gerais e Diretrizes do Real City
 
 > [!NOTE]
 > Este documento define a conduta básica esperada de todos os cidadãos, os princípios essenciais de atuação (RP) e os limites fundamentais de convivência na cidade.
