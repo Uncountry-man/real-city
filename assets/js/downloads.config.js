@@ -3,10 +3,10 @@
  * `android`, `ios` e `windows` são do Real City (versão principal);
  * `capital_android` é o Capital City SAMP (versão leve).
  *
- * Enquanto `url` estiver vazio, a plataforma aparece como "Link ainda não publicado"
- * e o botão fica desativado. Ao preencher `url`, o botão vira um link de download real.
+ * Enquanto `url` estiver vazio, a plataforma não ganha botão e aparece em "Em breve".
+ * Ao preencher `url`, surge o botão de download.
  *
- * Campos opcionais (exibidos somente quando preenchidos):
+ * Campos opcionais (dica do botão, somente quando preenchidos):
  *   version      — ex.: "1.0.3"
  *   size         — ex.: "1,2 GB"
  *   requirements — ex.: "Android 8.0 ou superior"

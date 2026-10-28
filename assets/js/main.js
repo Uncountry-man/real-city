@@ -53,46 +53,47 @@
     }
   }
 
+  // Cada [data-platform] vira um botão de download; sem link, a plataforma
+  // entra na linha "Em breve" da sua versão.
   function initDownloads() {
     const config = window.REAL_CITY_DOWNLOADS || {};
 
-    document.querySelectorAll("[data-platform]").forEach((item) => {
-      const key = item.dataset.platform;
-      const entry = config[key];
-      if (!entry || !isValidUrl(entry.url)) return;
+    document.querySelectorAll(".edition").forEach((edition) => {
+      const soon = [];
 
-      const label = PLATFORM_LABELS[key] || key;
-      const placeholder = item.querySelector("[data-action]");
-      const link = document.createElement("a");
-      link.className = "btn btn--primary";
-      link.href = entry.url.trim();
-      link.setAttribute("download", "");
-      link.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-download"></use></svg>';
-      link.append(item.dataset.label || `Baixar para ${label}`);
-      if (/^https?:/i.test(link.href) && new URL(link.href).origin !== window.location.origin) {
-        link.rel = "noopener";
-      }
-      placeholder.replaceWith(link);
+      edition.querySelectorAll("[data-platform]").forEach((slot) => {
+        const key = slot.dataset.platform;
+        const entry = config[key];
+        const label = PLATFORM_LABELS[key.replace(/^capital_/, "")] || key;
+        if (!entry || !isValidUrl(entry.url)) {
+          soon.push(label);
+          slot.remove();
+          return;
+        }
 
-      const status = item.querySelector("[data-status]");
-      status.classList.replace("status--pending", "status--available");
-      status.lastChild.textContent = "Disponível para download";
+        const link = document.createElement("a");
+        link.className = "btn btn--primary";
+        link.href = entry.url.trim();
+        link.setAttribute("download", "");
+        link.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-download"></use></svg>';
+        link.append(slot.dataset.label || `Baixar para ${label}`);
+        if (/^https?:/i.test(link.href) && new URL(link.href).origin !== window.location.origin) {
+          link.rel = "noopener";
+        }
 
-      const meta = item.querySelector("[data-meta]");
-      Object.keys(META_LABELS).forEach((field) => {
-        const value = typeof entry[field] === "string" ? entry[field].trim() : "";
-        if (!value) return;
-        const row = document.createElement("div");
-        const dt = document.createElement("dt");
-        const dd = document.createElement("dd");
-        dt.textContent = META_LABELS[field];
-        dd.textContent = value;
-        row.append(dt, dd);
-        meta.append(row);
+        const details = Object.keys(META_LABELS)
+          .map((field) => (typeof entry[field] === "string" ? entry[field].trim() : ""))
+          .filter(Boolean);
+        if (details.length) link.title = details.join(" · ");
+
+        slot.replaceWith(link);
       });
-      meta.hidden = meta.children.length === 0;
 
-      item.classList.add("is-available");
+      const note = edition.querySelector("[data-soon]");
+      if (note && soon.length) {
+        note.textContent = `Em breve: ${soon.join(", ")}`;
+        note.hidden = false;
+      }
     });
   }
 

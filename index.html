@@ -126,9 +126,7 @@
         </div>
         <p class="hero__platforms">
           <span class="hero__platforms-label">Versões</span>
-          <a href="#download-android">Android</a>
-          <a href="#download-ios">iOS</a>
-          <a href="#download-windows">Windows</a>
+          <a href="#real-city">Real City</a>
           <a href="#capital-city">Capital City SAMP (leve)</a>
         </p>
       </div>
@@ -156,139 +154,34 @@
     </div>
 
     <section class="section downloads" id="downloads" aria-labelledby="downloads-titulo">
-      <div class="downloads__intro">
+      <header class="downloads__head">
         <p class="section-index"><span>01</span>Downloads</p>
         <h2 class="section-title" id="downloads-titulo">Escolha a sua versão</h2>
-        <p class="section-lead downloads__lead">
-          São dois jogos diferentes, cada um com o seu arquivo. Em dúvida? Comece pelo <strong>Real City</strong>. Se
-          o seu celular for mais simples, baixe o <strong>Capital City SAMP</strong>.
-        </p>
-        <ul class="chooser" role="list">
-          <li>
-            <a class="chooser__item chooser__item--main" href="#real-city">
-              <span class="chooser__tag">Principal</span>
-              <span class="chooser__name">Real City</span>
-              <span class="chooser__hint">Mapa do GTA V · Android, iOS e PC</span>
-            </a>
-          </li>
-          <li>
-            <a class="chooser__item" href="#capital-city">
-              <span class="chooser__tag chooser__tag--lite">Leve</span>
-              <span class="chooser__name">Capital City SAMP</span>
-              <span class="chooser__hint">Base SA-MP · celulares mais simples</span>
-            </a>
-          </li>
-        </ul>
-        <picture class="downloads__art">
-          <source type="image/webp"
-            srcset="assets/img/arte-oficial-480.webp 480w, assets/img/arte-oficial-800.webp 800w"
-            sizes="(min-width: 960px) 30vw, 60vw">
-          <img src="assets/img/arte-oficial-800.jpg"
-            srcset="assets/img/arte-oficial-480.jpg 480w, assets/img/arte-oficial-800.jpg 800w"
-            sizes="(min-width: 960px) 30vw, 60vw" width="800" height="800" loading="lazy" decoding="async"
-            alt="Arte oficial do Real City: logotipo branco sobre uma rua noturna em tons de azul, com palmeiras e silhuetas de personagens.">
-        </picture>
-      </div>
+        <p class="section-lead">Na dúvida, baixe o Real City.</p>
+      </header>
 
       <div class="editions">
-      <article class="edition edition--main" id="real-city" aria-labelledby="real-city-titulo">
-        <header class="edition__head">
-          <p class="edition__tag">Versão principal · Recomendada</p>
+        <article class="edition edition--main" id="real-city" aria-labelledby="real-city-titulo">
+          <p class="edition__tag">Principal</p>
           <h3 class="edition__name" id="real-city-titulo">Real City <span class="beta">Beta</span></h3>
-          <p class="edition__desc">Mapa baseado no GTA V, com gráficos completos. Para celulares intermediários ou
-            melhores e para PC.</p>
-        </header>
+          <p class="edition__desc">Mapa do GTA V. Para celulares intermediários ou melhores e PC.</p>
+          <div class="edition__actions">
+            <span data-platform="android"></span>
+            <span data-platform="ios"></span>
+            <span data-platform="windows"></span>
+          </div>
+          <p class="edition__note" data-soon hidden></p>
+        </article>
 
-      <ul class="platforms" role="list">
-        <li class="platform" id="download-android" data-platform="android">
-          <div class="platform__icon" aria-hidden="true"><svg>
-              <use href="#i-android"></use>
-            </svg></div>
-          <div class="platform__body">
-            <h4 class="platform__name">Android</h4>
-            <p class="platform__desc">Para celulares e tablets com Android.</p>
-            <dl class="platform__meta" data-meta hidden></dl>
-          </div>
-          <div class="platform__action">
-            <p class="status status--pending" data-status>
-              <span class="status__dot" aria-hidden="true"></span>Link ainda não publicado
-            </p>
-            <span class="btn btn--disabled" aria-disabled="true" data-action>
-              Indisponível no momento
-            </span>
-          </div>
-        </li>
-
-        <li class="platform" id="download-ios" data-platform="ios">
-          <div class="platform__icon" aria-hidden="true"><svg>
-              <use href="#i-ios"></use>
-            </svg></div>
-          <div class="platform__body">
-            <h4 class="platform__name">iOS</h4>
-            <p class="platform__desc">Para iPhone e iPad (Apple).</p>
-            <dl class="platform__meta" data-meta hidden></dl>
-          </div>
-          <div class="platform__action">
-            <p class="status status--pending" data-status>
-              <span class="status__dot" aria-hidden="true"></span>Link ainda não publicado
-            </p>
-            <span class="btn btn--disabled" aria-disabled="true" data-action>
-              Indisponível no momento
-            </span>
-          </div>
-        </li>
-
-        <li class="platform" id="download-windows" data-platform="windows">
-          <div class="platform__icon" aria-hidden="true"><svg>
-              <use href="#i-windows"></use>
-            </svg></div>
-          <div class="platform__body">
-            <h4 class="platform__name">Windows</h4>
-            <p class="platform__desc">Para computadores com Windows.</p>
-            <dl class="platform__meta" data-meta hidden></dl>
-          </div>
-          <div class="platform__action">
-            <p class="status status--pending" data-status>
-              <span class="status__dot" aria-hidden="true"></span>Link ainda não publicado
-            </p>
-            <span class="btn btn--disabled" aria-disabled="true" data-action>
-              Indisponível no momento
-            </span>
-          </div>
-        </li>
-      </ul>
-      </article>
-
-      <article class="edition edition--lite" id="capital-city" aria-labelledby="capital-city-titulo">
-        <header class="edition__head">
-          <p class="edition__tag edition__tag--lite">Versão leve · SA-MP</p>
+        <article class="edition edition--lite" id="capital-city" aria-labelledby="capital-city-titulo">
+          <p class="edition__tag edition__tag--lite">Versão leve</p>
           <h3 class="edition__name" id="capital-city-titulo">Capital City SAMP</h3>
-          <p class="edition__desc">Baseado no SA-MP (mapa do GTA San Andreas). Roda em celulares de baixo custo ou com
-            pouca memória, e é a opção para quem prefere jogar no SAMP.</p>
-        </header>
-
-        <ul class="platforms" role="list">
-          <li class="platform" id="download-capital-android" data-platform="capital_android"
-            data-label="Baixar Capital City">
-            <div class="platform__icon" aria-hidden="true"><svg>
-                <use href="#i-android"></use>
-              </svg></div>
-            <div class="platform__body">
-              <h4 class="platform__name">Android</h4>
-              <p class="platform__desc">APK para celulares e tablets com Android.</p>
-              <dl class="platform__meta" data-meta hidden></dl>
-            </div>
-            <div class="platform__action">
-              <p class="status status--pending" data-status>
-                <span class="status__dot" aria-hidden="true"></span>Link ainda não publicado
-              </p>
-              <span class="btn btn--disabled" aria-disabled="true" data-action>
-                Indisponível no momento
-              </span>
-            </div>
-          </li>
-        </ul>
-      </article>
+          <p class="edition__desc">Base SA-MP (San Andreas). Para celulares simples ou para jogar no SAMP.</p>
+          <div class="edition__actions">
+            <span data-platform="capital_android" data-label="Baixar para Android"></span>
+          </div>
+          <p class="edition__note" data-soon hidden></p>
+        </article>
       </div>
     </section>
 

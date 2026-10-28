@@ -19,8 +19,8 @@ Para publicar, envie o conteúdo de `dist/` para qualquer hospedagem estática.
 
 Edite `assets/js/downloads.config.js` (também em `dist/assets/js/` após o build).
 Cada plataforma tem seu próprio `url`: `android`, `ios` e `windows` são do Real City (versão principal) e `capital_android` é o Capital City SAMP (versão leve, base SA-MP).
-Com `url` vazio, a plataforma aparece como "Link ainda não publicado" e o botão fica desativado.
-`version`, `size` e `requirements` só aparecem quando preenchidos.
+Com `url` vazio, a plataforma não ganha botão e aparece na linha "Em breve" da sua versão.
+`version`, `size` e `requirements`, quando preenchidos, aparecem como dica ao passar o mouse no botão.
 
 ## Regras (rules.html)
 
