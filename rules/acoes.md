@@ -1,16 +1,16 @@
 # ⚔️ Regras de Ações: Assaltos, Abordagens e Prisões
 
 > [!NOTE]
-> Este documento disciplina a proporção de participantes, os critérios matemáticos de superioridade numérica, as possibilidades legítimas de reação armada e os limites operacionais durante ações no servidor.
+> Este documento disciplina quantas pessoas podem participar de cada ação, quando é permitido reagir e os limites durante assaltos, abordagens, roubos a estabelecimentos e prisões. A forma de contar quem está em maior número está nas [Regras Gerais](gerais.md), seção 2.1.
 
 ---
 
 ## 1. Assaltos a Jogadores e Grupos
 
 ### 1.1. Proporção Numérica e Início da Ação
-* **Deflagração da Ação:** É permitido aos criminosos anunciar um assalto mesmo estando em número inferior ao grupo da vítima.
-* **Obrigatoriedade de Rendição:** Caso os assaltantes estejam em **maior número** que as vítimas abordadas, estas são obrigadas a acatar a rendição, sendo vedada qualquer tentativa de reação armada.
-* **Critério de Reação da Vítima:** A vítima só poderá reagir se estiver em **quantidade igual ou superior** ao total de assaltantes presentes no início da abordagem.
+* **Anunciar o assalto:** Os criminosos podem anunciar um assalto mesmo estando em menor número que as vítimas.
+* **Rendição obrigatória:** Se os assaltantes estiverem em **maior número**, as vítimas devem se render, sem reação armada.
+* **Reação permitida:** A vítima só pode reagir se estiver em **número igual ou maior** que o de assaltantes presentes no início da abordagem.
 
 | Cenário de Assalto | Efetivo Presente | Reação da Vítima |
 | :---: | :---: | :---: |
@@ -20,34 +20,33 @@
 
 ### 1.2. Proibição de Saquear Policiais
 > [!CAUTION]
-> É categoricamente proibido revistar, roubar ou saquear o inventário (armas, munições ou pertences) de policiais que estejam rendidos ou abatidos no chão.
+> É proibido revistar, roubar ou saquear armas, munições ou pertences de policiais rendidos ou caídos no chão.
 
 ### 1.3. Fuga e Solicitação de Apoio
-* A vítima abordada tem o direito de iniciar fuga em veículo, deflagrando perseguição imediata.
-* Durante o acompanhamento tático em fuga, ambas as partes podem convocar reforços.
-* **Proibição de Reforço Rendido:** É terminantemente proibido chamar apoio enquanto estiver sob a mira direta de uma arma ou rendido. Tal conduta é punida severamente por quebra da regra de **Amor à Vida**.
+* A vítima pode tentar fugir de veículo antes de ser rendida, o que inicia uma perseguição.
+* Durante a perseguição, os dois lados podem chamar reforços.
+* **Rendido não chama reforço:** É proibido pedir apoio enquanto estiver sob a mira de uma arma ou rendido. Isso quebra a regra de **Amor à Vida** e é punido com rigor.
 
 ---
 
 ## 2. Abordagens Policiais
 
-### 2.1. Abordagem a Indivíduo Isolado
-A guarnição policial pode abordar um suspeito solitário mesmo estando em menor número. Todavia, o abordado poderá reagir caso disponha de igualdade ou vantagem numérica.
+### 2.1. Abordagem a Indivíduo Sozinho
+A guarnição (mínimo de 2 policiais) pode abordar um suspeito sozinho. Por estar em menor número, ele não pode reagir.
 
 ### 2.2. Abordagem a Grupos
-Para realizar abordagens, averiguações ou revistas contra grupos parados, o efetivo policial deve obrigatoriamente **superar a quantidade de pessoas do grupo suspeito**.
+* Para abordar, averiguar ou revistar um grupo, a polícia deve estar em **maior número** que o grupo.
+* Cumprida essa regra, o grupo abordado não pode reagir.
+* Se a polícia iniciar a abordagem em número **igual ou menor** que o do grupo, o grupo pode reagir.
 
-### 2.3. Direito de Reação do Grupo Abordado
-O grupo sob abordagem policial só poderá efetuar disparos de reação caso possua contingente **igual ou superior** ao número de policiais presentes na cena no exato momento.
-
-### 2.4. Proibição de Reforço Estático
-É proibido ao grupo abordado chamar reforços durante a abordagem parada com o único propósito de atingir superioridade numérica para iniciar tiroteio contra a guarnição.
+### 2.3. Proibição de Reforço Durante a Abordagem
+É proibido ao grupo abordado chamar reforços durante a abordagem para virar a contagem e iniciar tiroteio contra a guarnição.
 
 ---
 
-## 3. Dinâmica de Fuga e Perda Imediata de Reação
+## 3. Fuga e Perda Imediata de Reação
 
-Caso a abordagem evolua para acompanhamento tático (fuga em veículos), ambos os lados estão autorizados a solicitar reforços pelo rádio.
+Se a abordagem virar perseguição (fuga em veículos), os dois lados podem chamar reforços pelo rádio.
 
 ```
        [ Conflito em Andamento ]
@@ -69,35 +68,53 @@ Caso a abordagem evolua para acompanhamento tático (fuga em veículos), ambos o
 ```
 
 > [!WARNING]
-> **Perda Imediata do Direito de Reação:** Se a chegada de reforços policiais fizer com que a corporação passe a estar em superioridade numérica, a permissão de reação dos suspeitos é **revogada imediatamente**. É terminantemente proibido prosseguir com disparos após a consolidação da superioridade policial.
+> **Perda Imediata do Direito de Reação:** Se os reforços deixarem a polícia em maior número, os suspeitos perdem o direito de atirar **na hora**. Eles podem continuar fugindo, mas não podem mais disparar.
 
-### 3.1. Troca de Tiros em Fuga e Disparos Embarcados (*Drive-By*)
-* **Condutor (P1) Não Atira:** O motorista/piloto do veículo em fuga ou da viatura policial nunca pode atirar enquanto dirige. Para engajar em combate, é obrigatório parar o veículo e desembarcar.
-* **Disparos Exclusivos por Passageiros (P2+):** Apenas os passageiros devidamente embarcados podem efetuar disparos de dentro do veículo contra o veículo adversário (visando pneus ou lataria).
-* **Condição Obrigatória para Disparo em Fuga (Colisão Grave):** Durante perseguições, só é cabível efetuar disparos de dentro do veículo se o carro adversário sofrer uma batida significativa — isto é, uma colisão que desestabilize o automóvel de verdade, como rodar/girar na pista ou obrigar o motorista a parar para se recompor. Batidas leves, raspões ou bater em um poste/guia sem que nada aconteça (com o veículo seguindo normalmente sem perder o controle) **não tornam cabível** o disparo de dentro do carro.
-* **Vedado Disparo contra Indivíduos a Pé:** Em nenhuma circunstância é permitido a ocupantes de veículos atirar de dentro do carro contra suspeitos, civis ou policiais que já estejam a pé no chão.
-* **Armamento Permitido:** Permitido somente o emprego de armas leves/secundárias (pistolas e submetralhadoras/SMGs). Fuzis de grosso calibre (M4/AK) ou escopetas não podem ser disparados de dentro das janelas de veículos comuns.
+* A polícia nunca é obrigada a se render. Se os suspeitos ficarem em maior número, os policiais podem recuar e aguardar reforço.
+* Esta regra **não vale** para roubos a estabelecimentos (seção 4), que têm regras próprias.
 
----
-
-## 4. Prisões, Condução e Uso de Algemas
-
-### 4.1. Superioridade Numérica em Prisões
-A efetivação de prisões contra grupos exige que as forças policiais estejam em maior número que o grupo a ser detido.
-
-### 4.2. Cúmplices e Escolta
-Indivíduos flagrados prestando escolta armada ou cobertura a suspeitos durante uma abordagem serão considerados partícipes da ação e poderão ser conduzidos à delegacia.
-
-### 4.3. Condição do Suspeito Algemado
-* **Perda Total de Reação:** Assim que o indivíduo for algemado pelos policiais, ele perde todo e qualquer direito de reagir contra a guarnição.
-* **Proibição de Reforço Algemado:** O jogador sob custódia e algemado está proibido de enviar coordenadas, emitir chamados de rádio ou utilizar canais externos (Discord) para convocar resgate. A infração ensejará punição disciplinar por falta de Amor à Vida e Meta Gaming.
+### 3.1. Disparos de Dentro de Veículos
+Durante fugas e perseguições, valem as regras de *Drive-By* das [Regras Gerais](gerais.md), seção 2.2: o condutor nunca atira, só passageiros, só pistola/SMG, só contra veículos, e somente após colisão grave ou agressão.
 
 ---
 
-## 5. Diretrizes Preliminares sobre Sequestros
+## 4. Roubos a Estabelecimentos (Lojas, Joalheria e Banco)
 
-* O regulamento completo dos procedimentos de cativeiro e negociação será integrado após a liberação da mecânica dedicada no servidor.
-* **Vedações Vigentes:**
+### 4.1. Início e Participantes
+* O número de participantes respeita o limite definido pelo sistema ou anunciado pela Administração para cada tipo de roubo.
+* O roubo começa quando o alarme é acionado. A partir daí, a polícia é avisada e deve atender a ocorrência (ver [Corporações](corporacoes.md), seção 4).
+
+### 4.2. Confronto
+* Dentro do roubo e durante a fuga imediata, o confronto entre criminosos e polícia é liberado, **independentemente de quem está em maior número**.
+* Encerrada a fuga (criminosos presos, mortos ou que despistaram a polícia), a ação acaba e não pode ser retomada.
+
+### 4.3. Reféns e Negociação
+* O refém deve ser um jogador real que estava no local. É proibido usar amigo ou membro da própria organização como refém combinado.
+* Com refém, a polícia deve abrir negociação antes de invadir. A negociação deve ser feita de boa-fé pelos dois lados, sem exigências impossíveis.
+* É proibido matar o refém sem motivo em RP (ex.: polícia cumpriu todas as exigências).
+
+---
+
+## 5. Prisões, Condução e Uso de Algemas
+
+### 5.1. Superioridade Numérica em Prisões
+Prender um grupo exige que a polícia esteja em maior número que o grupo detido.
+
+### 5.2. Cúmplices e Escolta
+Quem for flagrado fazendo escolta armada ou dando cobertura a suspeitos durante uma abordagem é considerado participante e pode ser levado à delegacia.
+
+### 5.3. Condição do Suspeito Algemado
+* **Perda Total de Reação:** Algemado, o suspeito perde qualquer direito de reagir contra a guarnição.
+* **Algemado não chama resgate:** É proibido enviar localização, usar o rádio ou canais externos (Discord) para pedir resgate. A infração é punida por quebra de *Amor à Vida* e *Meta Gaming*.
+* Resgates de presos só podem acontecer se planejados por quem estava livre e soube do fato **dentro do RP**.
+
+---
+
+## 6. Diretrizes Preliminares sobre Sequestros
+
+* O regulamento completo de cativeiro e negociação será publicado quando a mecânica dedicada for liberada no servidor.
+* **Vedações já vigentes:**
   * Proibido sequestrar novatos;
   * Proibido a civis executarem sequestros;
-  * Proibido sequestrar membros da Staff em trabalho administrativo.
+  * Proibido sequestrar membros da Staff em trabalho administrativo;
+  * Proibido sequestrar médicos em serviço.

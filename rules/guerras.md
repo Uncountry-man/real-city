@@ -1,22 +1,22 @@
 # 💥 Regulamento Oficial de Guerras entre Organizações
 
 > [!NOTE]
-> Este documento rege os critérios de abertura, prazos de vigência, mecânicas de combate autorizadas (KOS) e limites bélicos para guerras homologadas entre organizações e corporações.
+> Este documento rege os critérios de abertura, os prazos, as permissões de combate (KOS) e os limites das guerras homologadas entre organizações e corporações.
 
 ---
 
 ## 1. Justificativa de Roleplay e Formalização
 
 ### 1.1. Motivação Concreta em RP
-Uma guerra não pode ser declarada por desavenças fúteis ou motivações OOC. Exige-se um histórico fático consolidado e motivos de extrema gravidade desenvolvidos dentro do Roleplay.
+Uma guerra não pode ser declarada por desavenças bobas ou motivos OOC. É preciso um histórico de conflitos graves construído dentro do RP.
 
 ### 1.2. Requerimento Formal via Ticket
-* A declaração formal de guerra é prerrogativa privativa de **Líderes ou Sublíderes**.
-* A solicitação deve ser protocolada mediante abertura de ticket específico no canal oficial do Discord: `Central ORGs CC`.
-* **Exigência Probatória:** O requerente deve anexar gravações de vídeo que comprovem e identifiquem com clareza o grupo rival visado. Acusações baseadas em suposições ou Meta Gaming serão arquivadas sumariamente.
+* Só **Líderes ou Sublíderes** podem pedir uma guerra.
+* O pedido é feito por ticket no canal oficial do Discord: `Central ORGs CC`.
+* **Provas obrigatórias:** O pedido deve trazer vídeos que mostrem e identifiquem claramente o grupo rival. Pedidos baseados em suposições ou *Meta Gaming* são arquivados.
 
 ### 1.3. Homologação da Administração
-O conflito armado só é considerado legal e oficialmente iniciado **após o deferimento formal e a publicação do edital pela Administração**.
+A guerra só começa **depois que a Administração aprova o pedido e publica o edital**, com os horários de início e fim. A Administração ouve as duas partes antes de decidir.
 
 ---
 
@@ -24,73 +24,78 @@ O conflito armado só é considerado legal e oficialmente iniciado **após o def
 
 | Formato de Conflito | Viabilidade | Observações |
 | :--- | :---: | :--- |
-| **Organização x Organização** | ✅ **Permitido** | Disputa territorial ou mercadológica entre facções criminosas. |
-| **Organização x Corporação** | ✅ **Permitido** | Conflito institucional entre facção criminosa e força policial. |
-| **Corporação x Organização** | ✅ **Permitido** | Ofensiva legal deflagrada pela polícia contra facção criminosa. |
-| **Corporação x Corporação** | ❌ **PROIBIDO** | Vetado qualquer conflito armado entre corporações policiais. |
+| **Organização x Organização** | ✅ **Permitido** | Disputa territorial ou comercial entre facções. |
+| **Organização x Corporação** | ✅ **Permitido** | Conflito entre uma facção e uma força policial, pedido por qualquer um dos lados. |
+| **Corporação x Corporação** | ❌ **PROIBIDO** | Nenhum conflito armado entre corporações policiais. |
+
+> [!NOTE]
+> Em guerra contra uma corporação, são alvos apenas os policiais **fardados e em serviço** daquela corporação. Policiais de outras corporações seguem as regras normais.
 
 ---
 
-## 3. Diretrizes de Beligerantes e Controle de Tags
+## 3. Participantes e Controle de Tags
 
 ### 3.1. Membros Efetivos
-Participam das ações de guerra exclusivamente os jogadores cadastrados no painel oficial da organização. É terminantemente proibido contratar mercenários, aliados terceiros ou atiradores avulsos para o combate direto.
+Participam da guerra apenas os membros cadastrados no painel oficial de cada organização. É proibido usar aliados, outras facções, mercenários ou civis no combate (ver [Organizações](organizacoes.md), seção 1.5).
 
 ### 3.2. Uso Obrigatório e Ininterrupto de Tag
-* Todos os membros das organizações beligerantes devem manter sua respectiva tag de grupo **ativa durante as 24 horas da guerra**.
-* > [!CAUTION]
-  > **Proibição de Desativação Fraudulenta:** É proibido desligar a tag para circular despercebido pela cidade e religá-la de surpresa para efetuar abates. A prática ensejará banimento temporário e advertência à organização.
+Todos os membros das organizações em guerra devem manter a tag do grupo **ativa durante toda a guerra**.
 
-### 3.3. Entradas e Desligamentos durante o Conflito
-* **Saída Fraudulenta:** É proibido desvincular membros provisoriamente com o intuito ardiloso de poupá-los do KOS.
-* **Novos Integrantes:** Jogadores recrutados pela facção durante a vigência do conflito passam a ser alvos imediatos da guerra.
+> [!CAUTION]
+> **Proibido desligar a tag:** É proibido desativar a tag para circular sem ser notado e religá-la de surpresa para atacar. A prática gera banimento temporário e aviso à organização.
+
+### 3.3. Entradas e Saídas durante o Conflito
+* **Saída fraudulenta:** É proibido desligar membros temporariamente para protegê-los do KOS.
+* **Novos integrantes:** Quem entrar na facção durante a guerra passa a ser alvo imediatamente.
 
 ---
 
 ## 4. Duração e Cronograma Oficial
 
-A guerra terá duração pré-fixada de **24 ou 48 horas**, acordada entre as partes e ratificada pela Administração. Os horários exatos de início e término serão afixados no edital administrativo.
+A guerra dura **24 ou 48 horas**, conforme definido pela Administração no edital. Os horários exatos de início e fim são os publicados no edital.
 
 ---
 
 ## 5. Permissões de Combate durante a Guerra
 
-Durante o período oficial de vigência do conflito, ficam concedidas as seguintes permissões extraordinárias:
+Durante a guerra, ficam liberadas as seguintes permissões especiais:
 
 ### 5.1. KOS (*Kill On Sight*)
-* Fica liberado o abate sumário (KOS) imediato, sem necessidade de aviso prévio ou voz de assalto.
-* **Restrição Rigorosa:** O KOS aplica-se **exclusivamente** contra membros oficiais com tag ativa da organização rival. É estritamente proibido disparar contra civis ou terceiros desarmados presentes no local.
+* O abate imediato (KOS) é liberado, sem necessidade de aviso ou voz de assalto.
+* **Somente contra membros com tag ativa da organização rival.** Atirar em civis, terceiros ou membros de outras organizações continua sendo *RDM*.
+* Mesmo em guerra, continuam valendo as regras de *Drive-By* e de atendimento médico das [Regras Gerais](gerais.md).
 
 ### 5.2. Destruição de Veículos Inimigos
-É permitido perfurar pneus, danificar ou explodir viaturas e veículos pertencentes à facção adversária durante confrontos de rua.
+É permitido furar pneus, danificar ou explodir veículos da facção rival durante os confrontos.
+
 > [!WARNING]
-> É categoricamente proibido roubar, desmanchar ou apreender veículos da facção rival utilizando o pretexto da guerra.
+> É proibido roubar, desmanchar ou apreender veículos da facção rival usando a guerra como pretexto.
 
-### 5.3. Suspensão de Vendas de Suprimentos
-As facções envolvidas no conflito adquirem o direito de recusar mutuamente o fornecimento de armas, munições, drogas ou serviços durante a vigência da guerra.
-
----
-
-## 6. Proibições Rígidas durante a Guerra
-
-Mesmo durante o estado de beligerância, os seguintes atos continuam terminantemente vetados:
-
-* ❌ **Proibido Invadir Sedes:** É vetado invadir bases, perímetros de favelas ou delegacias do grupo inimigo;
-* ❌ **Proibido Assaltar ou Sequestrar:** A guerra não autoriza a prática de assaltos ou sequestros entre as partes;
-* ❌ **Proibido *Camping* Abusivo:** É proibido permanecer acampado nas saídas de bases, sedes ou hospitais aguardando a saída de oponentes para efetuar *spawn-kill*.
+### 5.3. Suspensão de Vendas
+As facções em guerra podem recusar, uma à outra, a venda de armas, munições, drogas ou serviços enquanto durar a guerra.
 
 ---
 
-## 7. Morte e Esquecimento (*NLR - New Life Rule*)
+## 6. Proibições durante a Guerra
 
-O integrante que for abatido em tiroteio de guerra deve esquecer imediatamente todos os fatos fáticos que culminaram em sua morte:
-* Proibido retornar ao local da morte;
-* Proibido repassar coordenadas de rádio ou posições dos inimigos após ter caído.
+Mesmo em guerra, continuam proibidos:
+
+* ❌ **Invadir sedes:** É proibido invadir bases, favelas ou delegacias do grupo inimigo. Operações policiais em favelas seguem apenas as regras de [Corporações](corporacoes.md), seção 5;
+* ❌ **Assaltar ou sequestrar:** A guerra não autoriza assaltos ou sequestros entre as partes;
+* ❌ **Combater em Safe Zones:** Hospitais, concessionárias e demais Safe Zones continuam protegidos;
+* ❌ **Ficar de tocaia (*camping*):** É proibido esperar nas saídas de bases, sedes ou hospitais para matar oponentes assim que aparecem (*spawn-kill*).
+
+---
+
+## 7. Morte durante a Guerra
+
+Vale a regra de Morte e Esquecimento (*NLR*) das [Regras Gerais](gerais.md), seção 4.3: quem morre não volta ao local da morte por 15 minutos e não repassa informações sobre os inimigos.
 
 ---
 
 ## 8. Encerramento, Cessar-Fogo e *Cooldown*
 
-* Atingido o horário fixado, cessa-se imediatamente o KOS e a permissão de recusa de mercadorias.
-* É terminantemente proibido manter rixas ou emboscadas com base nos desdobramentos da guerra já finalizada.
-* A Administração estipulará o intervalo mínimo obrigatório (*cooldown*) antes de autorizar uma nova disputa entre os mesmos envolvidos.
+* No horário de término, o KOS e a recusa de vendas acabam imediatamente.
+* A Administração pode encerrar a guerra antes do prazo por quebra de regras ou a pedido das duas partes (cessar-fogo).
+* É proibido continuar rixas ou emboscadas por causa de uma guerra já encerrada.
+* A Administração define o intervalo mínimo (*cooldown*) antes de uma nova guerra entre os mesmos envolvidos.

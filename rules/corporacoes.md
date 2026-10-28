@@ -1,76 +1,87 @@
 # 👮 Diretrizes de Corporações Policiais e Militares
 
 > [!NOTE]
-> Este documento regulamenta a postura operacional, o patrulhamento preventivo, o uso progressivo da força, o emprego de armamentos especiais e a conduta ética das forças policiais do servidor.
+> Este documento regulamenta a postura operacional, o patrulhamento, o uso progressivo da força, o uso de armamentos especiais e a conduta ética das forças policiais do servidor.
 
 ---
 
 ## 1. Diretrizes Gerais de Patrulhamento
 
 ### 1.1. Efetivo Mínimo Embarcado
-* É estritamente proibido realizar patrulhamento individual (solo).
-* Todas as viaturas de 4 rodas devem obrigatoriamente operar com, no mínimo, **2 policiais embarcados e devidamente fardados**.
-* **Patrulhamento com Motocicletas:** Exige-se o comboio mínimo obrigatório de **2 motocicletas operando juntas**.
+* É proibido patrulhar sozinho.
+* Toda viatura de 4 rodas deve operar com, no mínimo, **2 policiais embarcados e fardados**.
+* **Motocicletas:** Patrulha somente em comboio de, no mínimo, **2 motos juntas**.
 
 ### 1.2. Abordagens e Ordem de Parada
-Toda abordagem deve ser iniciada de forma formal e técnica, utilizando verbalização clara de parada em conjunto com sirenes e sinais luminosos.
+* Toda abordagem começa de forma clara: ordem verbal de parada, sirene e giroflex.
+* As regras de efetivo para abordar indivíduos e grupos estão em [Ações, Assaltos e Prisões](acoes.md).
+
+### 1.3. Gravação Obrigatória
+Policiais devem gravar perseguições, abordagens e operações e guardar os vídeos por pelo menos **7 dias**. Sem vídeo, a corporação não consegue comprovar, por exemplo, a entrada legítima em uma favela.
 
 ---
 
 ## 2. Emprego da Força e Manobras Táticas
 
-### 2.1. Manobra Tática PIT (*Passar Lag*)
-A manobra de intervenção com toque controlado para desestabilizar o veículo em fuga só poderá ser executada mediante o atendimento simultâneo de 3 critérios:
-1. O acompanhamento tático estiver em **alta velocidade**;
-2. Houver **risco iminente à segurança pública** e integridade de terceiros;
-3. O trecho da via for apropriado (vias largas, longe de aglomerações e calçadas com pedestres).
+### 2.1. Uso Progressivo da Força
+A força usada deve ser proporcional à ameaça: verbalização → contenção física / taser → arma de fogo. A arma letal contra pessoas só pode ser usada para repelir agressão armada real e iminente.
 
-### 2.2. Fugas Marítimas
-Em acompanhamentos desencadeados no mar, baías ou canais aquáticos, o uso de armas de fogo letais contra a embarcação em fuga estará autorizado após decorrido **1 (um) minuto ininterrupto** de evasão.
+### 2.2. Manobra PIT
+A manobra de toque controlado para desestabilizar o veículo em fuga só pode ser feita quando os 3 critérios estiverem presentes ao mesmo tempo:
+1. Perseguição em **alta velocidade**;
+2. **Risco iminente** à segurança de terceiros;
+3. Trecho de via apropriado (via larga, longe de aglomerações e calçadas com pedestres).
 
-### 2.3. Emprego do Taser (Arma de Incapacitação Neuromuscular)
-* O taser é restrito à contenção de suspeitos desarmados em fuga a pé ou em controle de tumultos.
-* > [!CAUTION]
-  > **Proibição Crítica para P1:** O motorista da viatura (**P1**) está terminantemente proibido de disparar taser de dentro do veículo em movimento.
+### 2.3. Emprego do Taser
+* O taser é restrito à contenção de suspeitos desarmados em fuga a pé ou ao controle de tumultos.
+* O taser não pode ser usado de dentro de veículos, por nenhum ocupante.
 
-### 2.4. Disparos Embarcados em Acompanhamento Tático (*Drive-By Policial*)
-* **Condutor da Viatura (P1):** É terminantemente proibido ao policial condutor (**P1**) efetuar disparos de arma de fogo ou taser de dentro da viatura ao volante. Sua função é estritamente a direção defensiva e condução da viatura.
-* **Atirador Embarcado (P2 / P3 / P4):** Somente o policial passageiro está autorizado a atirar de dentro da viatura, com disparos voltados preferencialmente contra os pneus do veículo em fuga, após desobedecidas sucessivas ordens de parada ou em resposta imediata a agressão armada iniciada pelos suspeitos.
-* **Critério de Impacto para Disparos em Fuga:** Disparos de dentro da viatura contra o veículo em fuga só são cabíveis se o suspeito sofrer uma colisão expressiva que o faça rodar/girar ou ter que parar para se recompor. Bater de raspão em postes ou pequenos obstáculos sem que nada aconteça ao veículo não é cabível para efetuar disparos embarcados.
-* **Vedado Disparo contra Suspeitos a Pé:** É expressamente proibido atirar de dentro da viatura contra suspeitos em fuga a pé. A guarnição deve desembarcar para realizar o cerco ou confronto a pé.
+### 2.4. Disparos de Dentro da Viatura
+Valem integralmente as regras de *Drive-By* da seção 2.2 das [Regras Gerais](gerais.md) (P1 nunca atira, só pistola/SMG, exige colisão grave ou agressão, nunca contra quem está a pé). Além delas, para a polícia:
+* Os disparos devem mirar **preferencialmente os pneus** do veículo em fuga;
+* Fora a resposta a agressão armada, só são permitidos depois de ordens de parada ignoradas.
+
+### 2.5. Fugas Marítimas
+Em perseguições no mar, baías ou canais, disparos contra a embarcação em fuga ficam liberados após **1 (um) minuto ininterrupto** de fuga, sempre feitos pelos passageiros e seguindo as regras de *Drive-By*.
 
 ---
 
-## 3. Matriz de Emprego de Armamento Letal
+## 3. Matriz de Emprego de Armamento
 
-Fuzis e submetralhadoras de grosso calibre (**M4 e MP5**) são expressamente proibidos durante o patrulhamento urbano de rotina.
+Fuzis e submetralhadoras pesadas (**M4 e MP5**) são proibidos no patrulhamento de rotina.
 
-| Armamento | Patrulha Rotineira | Operações Especiais | Invasão de Favelas | Roubo a Banco / Joalheria |
+| Armamento | Patrulha de Rotina | Operações Especiais | Operação em Favela | Roubo a Banco / Joalheria |
 | :---: | :---: | :---: | :---: | :---: |
 | **Pistolas / Shotgun** | ✅ Liberado | ✅ Liberado | ✅ Liberado | ✅ Liberado |
-| **M4 / MP5 (Fuzis)** | ❌ Proibido | ✅ Autorizado | ✅ Autorizado | ✅ Autorizado |
+| **M4 / MP5** | ❌ Proibido | ✅ Autorizado | ✅ Autorizado | ✅ Autorizado |
 
-* O armamento letal destina-se unicamente a repelir agressões reais e iminentes. É terminantemente proibido disparar contra cidadãos ou veículos que não apresentem risco letal comprovado.
+> [!NOTE]
+> De dentro de veículos, valem só pistolas e submetralhadoras: a MP5 pode ser usada embarcada; a M4 e a shotgun, não.
 
 ---
 
 ## 4. Ocorrências Prioritárias: Banco Central e Joalheria
 
-* **Alerta Vermelho Geral:** Ao ser irradiado o alarme de assalto a Banco ou Joalheria, todas as guarnições disponíveis em patrulha têm o dever de priorizar o atendimento imediato da ocorrência.
-* **Comando Geral Unificado:** O **BAEP** assume automaticamente a liderança tática e o gerenciamento da cena. Todas as demais corporações subordinam-se às determinações da equipe comandante.
-* **Evasão dos Criminosos:** Assim que os criminosos iniciarem a fuga do local, todas as corporações estão autorizadas a integrar o acompanhamento tático conjuntamente.
+* **Alerta Geral:** Ao tocar o alarme de assalto a Banco ou Joalheria, todas as guarnições em patrulha devem priorizar a ocorrência.
+* **Comando Unificado:** O **BAEP** assume a liderança tática da cena. As demais corporações seguem as determinações dele.
+* **Fuga dos Criminosos:** Quando os criminosos iniciam a fuga, todas as corporações podem participar do acompanhamento.
+* As regras do lado criminoso nesses roubos (reféns, negociação e confronto) estão em [Ações, Assaltos e Prisões](acoes.md).
 
 ---
 
 ## 5. Operações Oficiais em Comunidades / Favelas
 
-Para a deflagração de incursões táticas em comunidades controladas por facções, exige-se o cumprimento rigoroso dos requisitos:
+Uma incursão planejada em comunidade controlada por facção (fora de perseguição) exige:
 
 * **Efetivo Mínimo Obrigatório:**
   * Presença do Líder da Corporação;
   * Presença do Sublíder da Corporação;
   * Mínimo de **8 (oito) oficiais fardados**.
-* **Teto de Forças:** É permitido o envolvimento de no máximo **2 corporações policiais simultaneamente** na mesma operação.
+* **Teto de Forças:** No máximo **2 corporações** na mesma operação.
+* **Motivo em RP:** A operação precisa de motivo construído no RP (denúncias, investigações, ocorrências anteriores), nunca de informação OOC.
+* **Intervalo:** A mesma comunidade não pode receber nova operação em menos de **2 horas** após o fim da anterior.
+
+A entrada em favela durante perseguição segue regras próprias, descritas em [Territórios](territorios.md).
 
 ---
 
@@ -78,13 +89,16 @@ Para a deflagração de incursões táticas em comunidades controladas por facç
 
 ### 6.1. Critérios para Uso de Algemas
 O uso de algemas restringe-se aos seguintes casos:
-* Flagrante delito com materiais ilícitos;
-* Identificação de foragido cadastrado no sistema penal;
-* Tentativa consumada de fuga durante a abordagem.
+* Flagrante com materiais ilícitos;
+* Foragido cadastrado no sistema penal;
+* Tentativa de fuga durante a abordagem;
+* Suspeito que reagiu ou ameaçou a guarnição.
 
-### 6.2. Proibições Rígidas
-* **Transporte em Motocicletas:** É proibido transportar custodiados/detidos na garupa de motocicletas.
-* **Atuação à Paisana:** Policiais sem farda não podem intervir em ocorrências sem prévia e ostensiva identificação funcional.
-* **Infiltração Proibida:** É vedada a infiltração de agentes policiais em facções criminosas.
-* **Corrupção Policial:** Condutas de corrupção ou favorecimento ilícito só poderão ocorrer com autorização expressa da Administração.
-* **Uso Pessoal de Viaturas:** Utilizar viaturas militares para afazeres pessoais ensejará sanções administrativas imediatas.
+### 6.2. Proibições
+* **Transporte em Motocicletas:** É proibido transportar detidos na garupa de motos.
+* **Atuação à Paisana:** Policial sem farda não pode intervir em ocorrências sem se identificar claramente como policial.
+* **Infiltração Proibida:** É vedada a infiltração de policiais em facções criminosas.
+* **Corrupção Policial:** Só pode ocorrer com autorização expressa da Administração (ver [Regras Gerais](gerais.md), seção 1.2).
+* **Uso Pessoal de Viaturas:** Usar viaturas ou armamento da corporação para fins pessoais gera sanção imediata.
+* **Abuso de Autoridade:** É proibido abordar, revistar ou prender sem motivo em RP, ou usar o cargo para perseguições pessoais.
+* **Saque de Apreensões:** Itens apreendidos devem ir para o sistema da corporação; é proibido ficar com eles ou repassá-los.
