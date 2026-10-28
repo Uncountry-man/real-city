@@ -68,7 +68,7 @@
       link.href = entry.url.trim();
       link.setAttribute("download", "");
       link.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-download"></use></svg>';
-      link.append(`Baixar para ${label}`);
+      link.append(item.dataset.label || `Baixar para ${label}`);
       if (/^https?:/i.test(link.href) && new URL(link.href).origin !== window.location.origin) {
         link.rel = "noopener";
       }

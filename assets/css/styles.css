@@ -112,7 +112,7 @@ picture,
 svg { display: block; max-width: 100%; }
 img { height: auto; }
 
-h1, h2, h3, p, ol, ul, dl, dd, figure { margin: 0; }
+h1, h2, h3, h4, p, ol, ul, dl, dd, figure { margin: 0; }
 ul[role="list"], ol[role="list"] { list-style: none; padding: 0; }
 
 a { color: inherit; }
@@ -687,6 +687,77 @@ button { font: inherit; color: inherit; }
   box-shadow: 0 0 10px var(--accent);
 }
 
+/* Escolha entre Real City e Capital City SAMP */
+.chooser {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+.chooser__item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.15rem 1rem;
+  padding: 1rem 1.25rem;
+  background: var(--bg);
+  border: 2px solid var(--line);
+  border-radius: var(--r-sm);
+  text-decoration: none;
+  transition: border-color var(--dur) var(--ease), transform var(--dur) var(--ease);
+}
+.chooser__item:hover { border-color: var(--ink); transform: translateX(3px); }
+.chooser__item--main { border-color: var(--accent); box-shadow: 4px 4px 0 var(--accent-soft); }
+.chooser__tag {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  padding: 0.12rem 0.5rem;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 2px;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.chooser__tag--lite { background: var(--sign); color: var(--paper-ink); }
+.chooser__name {
+  font-size: var(--fs-md);
+  font-weight: 900;
+  font-stretch: 70%;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+.chooser__hint { color: var(--ink-2); font-size: var(--fs-xs); }
+
+/* Versões: cada uma com seu bloco e sua lista de plataformas */
+.editions { display: grid; gap: clamp(3rem, 6vw, 4.5rem); }
+.edition { scroll-margin-top: calc(var(--header-h) + 1rem); }
+.edition__head { margin-bottom: 1.25rem; }
+.edition__tag {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-hover);
+}
+.edition__tag--lite { color: var(--sign); }
+.edition__name {
+  margin-top: 0.35rem;
+  font-size: var(--fs-xl);
+  font-weight: 900;
+  font-stretch: 62%;
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+.edition__desc { max-width: 38rem; margin-top: 0.75rem; color: var(--ink-2); }
+.edition--lite .platforms { border-top-color: var(--sign); }
+.edition--lite .platform.is-available .platform__icon {
+  background: var(--sign);
+  border-color: var(--sign);
+  color: var(--paper-ink);
+}
+
 @media (max-width: 60rem) {
   .downloads { grid-template-columns: minmax(0, 1fr); }
   .downloads__intro { position: static; }
@@ -1170,5 +1241,29 @@ button { font: inherit; color: inherit; }
 /* Celular: menos ruído nos downloads e no hero */
 @media (max-width: 40rem) {
   .hero__platforms,
-  .status { display: none; }
+  .hud-label,
+  .status,
+  .downloads__lead,
+  .platform__desc { display: none; }
+
+  /* Downloads enxutos: escolha em duas linhas, plataformas em uma linha cada */
+  .chooser { margin-top: 1.25rem; gap: 0.5rem; }
+  .chooser__item { padding: 0.75rem 1rem; }
+  .editions { gap: 2.5rem; }
+  .edition__name { font-size: var(--fs-lg); }
+  .edition__desc { font-size: var(--fs-sm); }
+  .platform { padding-block: 1rem; }
+  .platform__icon { width: 2.5rem; height: 2.5rem; }
+  .platform__icon svg { width: 1.35rem; height: 1.35rem; }
+  .platform__name { font-size: var(--fs-md); }
+
+  /* Plataforma sem link: uma linha só, com aviso curto no lugar do botão */
+  .platform:not(.is-available) { grid-template-columns: auto minmax(0, 1fr) auto; }
+  .platform:not(.is-available) .platform__action { grid-column: auto; }
+  .platform .btn--disabled {
+    min-height: 0;
+    padding: 0.35rem 0.6rem;
+    font-size: var(--fs-xs);
+    letter-spacing: 0.04em;
+  }
 }

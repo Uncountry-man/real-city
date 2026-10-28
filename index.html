@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Real City — Download oficial (Beta)</title>
   <meta name="description"
-    content="Site oficial de download do Real City (versão beta), jogo de roleplay multiplayer. Escolha sua plataforma — Android, iOS ou Windows — e veja como começar a jogar.">
+    content="Site oficial de download do Real City (versão beta), jogo de roleplay multiplayer. Baixe o Real City para Android, iOS ou Windows, ou o Capital City SAMP, versão leve para celulares mais simples.">
   <meta name="theme-color" content="#060d18">
   <meta name="color-scheme" content="dark">
   <meta name="msapplication-navbutton-color" content="#060d18">
@@ -28,7 +28,8 @@
   <meta property="og:image:alt" content="Logotipo do Real City em letras de pichação sobre uma rua noturna azul.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Real City — Download oficial (Beta)">
-  <meta name="twitter:description" content="Jogo de roleplay multiplayer. Baixe o Real City beta e entre na comunidade.">
+  <meta name="twitter:description"
+    content="Jogo de roleplay multiplayer. Baixe o Real City beta e entre na comunidade.">
   <meta name="twitter:image" content="https://uncountry-man.github.io/real-city/assets/img/og-real-city.jpg">
 
   <script type="application/ld+json">
@@ -128,6 +129,7 @@
           <a href="#download-android">Android</a>
           <a href="#download-ios">iOS</a>
           <a href="#download-windows">Windows</a>
+          <a href="#capital-city">Capital City SAMP (leve)</a>
         </p>
       </div>
 
@@ -156,12 +158,27 @@
     <section class="section downloads" id="downloads" aria-labelledby="downloads-titulo">
       <div class="downloads__intro">
         <p class="section-index"><span>01</span>Downloads</p>
-        <h2 class="section-title" id="downloads-titulo">Baixe para o seu aparelho</h2>
-        <p class="section-lead">
-          O Real City está em <strong>beta</strong>: pode ter bugs e mudar a qualquer momento. Cada versão tem o seu
-          próprio arquivo. Enquanto o link de uma plataforma não estiver publicado,
-          ela aparece aqui como indisponível.
+        <h2 class="section-title" id="downloads-titulo">Escolha a sua versão</h2>
+        <p class="section-lead downloads__lead">
+          São dois jogos diferentes, cada um com o seu arquivo. Em dúvida? Comece pelo <strong>Real City</strong>. Se
+          o seu celular for mais simples, baixe o <strong>Capital City SAMP</strong>.
         </p>
+        <ul class="chooser" role="list">
+          <li>
+            <a class="chooser__item chooser__item--main" href="#real-city">
+              <span class="chooser__tag">Principal</span>
+              <span class="chooser__name">Real City</span>
+              <span class="chooser__hint">Mapa do GTA V · Android, iOS e PC</span>
+            </a>
+          </li>
+          <li>
+            <a class="chooser__item" href="#capital-city">
+              <span class="chooser__tag chooser__tag--lite">Leve</span>
+              <span class="chooser__name">Capital City SAMP</span>
+              <span class="chooser__hint">Base SA-MP · celulares mais simples</span>
+            </a>
+          </li>
+        </ul>
         <picture class="downloads__art">
           <source type="image/webp"
             srcset="assets/img/arte-oficial-480.webp 480w, assets/img/arte-oficial-800.webp 800w"
@@ -173,13 +190,22 @@
         </picture>
       </div>
 
+      <div class="editions">
+      <article class="edition edition--main" id="real-city" aria-labelledby="real-city-titulo">
+        <header class="edition__head">
+          <p class="edition__tag">Versão principal · Recomendada</p>
+          <h3 class="edition__name" id="real-city-titulo">Real City <span class="beta">Beta</span></h3>
+          <p class="edition__desc">Mapa baseado no GTA V, com gráficos completos. Para celulares intermediários ou
+            melhores e para PC.</p>
+        </header>
+
       <ul class="platforms" role="list">
         <li class="platform" id="download-android" data-platform="android">
           <div class="platform__icon" aria-hidden="true"><svg>
               <use href="#i-android"></use>
             </svg></div>
           <div class="platform__body">
-            <h3 class="platform__name">Android <span class="beta">Beta</span></h3>
+            <h4 class="platform__name">Android</h4>
             <p class="platform__desc">Para celulares e tablets com Android.</p>
             <dl class="platform__meta" data-meta hidden></dl>
           </div>
@@ -198,7 +224,7 @@
               <use href="#i-ios"></use>
             </svg></div>
           <div class="platform__body">
-            <h3 class="platform__name">iOS</h3>
+            <h4 class="platform__name">iOS</h4>
             <p class="platform__desc">Para iPhone e iPad (Apple).</p>
             <dl class="platform__meta" data-meta hidden></dl>
           </div>
@@ -217,7 +243,7 @@
               <use href="#i-windows"></use>
             </svg></div>
           <div class="platform__body">
-            <h3 class="platform__name">Windows</h3>
+            <h4 class="platform__name">Windows</h4>
             <p class="platform__desc">Para computadores com Windows.</p>
             <dl class="platform__meta" data-meta hidden></dl>
           </div>
@@ -231,6 +257,39 @@
           </div>
         </li>
       </ul>
+      </article>
+
+      <article class="edition edition--lite" id="capital-city" aria-labelledby="capital-city-titulo">
+        <header class="edition__head">
+          <p class="edition__tag edition__tag--lite">Versão leve · SA-MP</p>
+          <h3 class="edition__name" id="capital-city-titulo">Capital City SAMP</h3>
+          <p class="edition__desc">Baseado no SA-MP (mapa do GTA San Andreas). Roda em celulares de baixo custo ou com
+            pouca memória, e é a opção para quem prefere jogar no SAMP.</p>
+        </header>
+
+        <ul class="platforms" role="list">
+          <li class="platform" id="download-capital-android" data-platform="capital_android"
+            data-label="Baixar Capital City">
+            <div class="platform__icon" aria-hidden="true"><svg>
+                <use href="#i-android"></use>
+              </svg></div>
+            <div class="platform__body">
+              <h4 class="platform__name">Android</h4>
+              <p class="platform__desc">APK para celulares e tablets com Android.</p>
+              <dl class="platform__meta" data-meta hidden></dl>
+            </div>
+            <div class="platform__action">
+              <p class="status status--pending" data-status>
+                <span class="status__dot" aria-hidden="true"></span>Link ainda não publicado
+              </p>
+              <span class="btn btn--disabled" aria-disabled="true" data-action>
+                Indisponível no momento
+              </span>
+            </div>
+          </li>
+        </ul>
+      </article>
+      </div>
     </section>
 
     <div class="wire wire--flip" aria-hidden="true">
@@ -304,9 +363,9 @@
       <ol class="steps__list" role="list">
         <li class="step">
           <span class="step__num" aria-hidden="true">01</span>
-          <h3 class="step__title">Escolha a plataforma</h3>
-          <p>Veja em <a href="#downloads">Downloads</a> qual versão serve para o seu aparelho: Android, iOS ou Windows.
-          </p>
+          <h3 class="step__title">Escolha a versão</h3>
+          <p>Em <a href="#downloads">Downloads</a>, escolha o Real City (Android, iOS ou Windows) ou, para celulares
+            mais simples, o Capital City SAMP.</p>
         </li>
         <li class="step">
           <span class="step__num" aria-hidden="true">02</span>
@@ -401,6 +460,23 @@
 
         <div class="faq__item">
           <h3 class="faq__q">
+            <button type="button" aria-expanded="false" aria-controls="faq-7" id="faq-7-btn">
+              Real City ou Capital City SAMP: qual baixar?
+              <span class="faq__sign" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="faq__a" id="faq-7" role="region" aria-labelledby="faq-7-btn">
+            <div>
+              <p>O <strong>Real City</strong> é a versão principal, com mapa baseado no GTA V. Prefira ele se o seu
+                aparelho der conta. O <strong>Capital City SAMP</strong> é baseado no SA-MP (GTA San Andreas): é mais
+                leve, feito para celulares de baixo custo, e serve também para quem quer jogar no SAMP. São arquivos e
+                cidades diferentes.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h3 class="faq__q">
             <button type="button" aria-expanded="false" aria-controls="faq-1" id="faq-1-btn">
               Como baixar o Real City?
               <span class="faq__sign" aria-hidden="true"></span>
@@ -408,7 +484,7 @@
           </h3>
           <div class="faq__a" id="faq-1" role="region" aria-labelledby="faq-1-btn">
             <div>
-              <p>Vá até <a href="#downloads">Downloads</a>, encontre a sua plataforma e use o botão de download. Se a
+              <p>Vá até <a href="#downloads">Downloads</a>, escolha a versão e a sua plataforma e use o botão de download. Se a
                 opção aparecer como indisponível, o link daquela versão ainda não foi publicado.</p>
             </div>
           </div>
@@ -423,8 +499,8 @@
           </h3>
           <div class="faq__a" id="faq-2" role="region" aria-labelledby="faq-2-btn">
             <div>
-              <p>Esta página reúne três versões: Android, iOS e Windows. Cada uma mostra se o download já está liberado.
-              </p>
+              <p>O Real City tem versões para Android, iOS e Windows. O Capital City SAMP tem versão para Android. Cada
+                uma mostra se o download já está liberado.</p>
             </div>
           </div>
         </div>

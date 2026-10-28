@@ -18,7 +18,7 @@ Para publicar, envie o conteúdo de `dist/` para qualquer hospedagem estática.
 ## Links de download
 
 Edite `assets/js/downloads.config.js` (também em `dist/assets/js/` após o build).
-Cada plataforma — `android`, `ios`, `windows` — tem seu próprio `url`.
+Cada plataforma tem seu próprio `url`: `android`, `ios` e `windows` são do Real City (versão principal) e `capital_android` é o Capital City SAMP (versão leve, base SA-MP).
 Com `url` vazio, a plataforma aparece como "Link ainda não publicado" e o botão fica desativado.
 `version`, `size` e `requirements` só aparecem quando preenchidos.
 
