@@ -10,6 +10,7 @@
     { file: "territorios", label: "Territórios e favelas" },
     { file: "acoes", label: "Ações, assaltos e prisões" },
     { file: "guerras", label: "Guerras" },
+    { file: "punicoes", label: "Punições" },
   ];
   const ALERTS = { NOTE: "Nota", WARNING: "Atenção", IMPORTANT: "Importante", CAUTION: "Cuidado" };
   const EMOJI_LEAD = /^[\p{Extended_Pictographic}️‍\s]+/u;

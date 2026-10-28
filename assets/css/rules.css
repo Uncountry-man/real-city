@@ -263,6 +263,38 @@
 .md-table tbody tr:nth-child(even) { background: rgb(255 255 255 / 0.02); }
 .md-table td:first-child { color: var(--ink); }
 
+/* Celular: cada linha vira um cartão, com o rótulo da coluna antes do valor */
+@media (max-width: 40rem) {
+  .md-table { overflow: visible; border: 0; }
+  .md-table table,
+  .md-table tbody,
+  .md-table tr,
+  .md-table td { display: block; min-width: 0; }
+  .md-table thead { display: none; }
+  .md-table tr {
+    margin-top: 0.75rem;
+    padding: 0.75rem 1rem;
+    border: 2px solid var(--line);
+    border-radius: var(--r-sm);
+  }
+  .md-table tbody tr:nth-child(even) { background: none; }
+  .md-table td { position: relative; padding: 0.3rem 0 0.3rem 7.5rem; border-top: 0; text-align: left !important; }
+  .md-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    top: 0.4rem;
+    left: 0;
+    width: 6.5rem;
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+  .md-table td:first-child { padding: 0 0 0.4rem; font-weight: 700; }
+  .md-table td:first-child::before { content: none; }
+}
+
 /* Anterior / próximo */
 .rules-pager {
   display: grid;

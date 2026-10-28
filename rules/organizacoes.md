@@ -41,6 +41,8 @@ Para garantir a seriedade e o cumprimento das normas, o servidor adota o sistema
 > [!WARNING]
 > **Consequência do 3º Aviso (*Wipe*):** Com 3 avisos, a organização é desmanchada, a liderança é destituída e todo o patrimônio e cofre acumulados são perdidos.
 
+As infrações que geram aviso estão listadas na [Tabela de Punições](punicoes.md).
+
 ### 2.1. Critérios de Limpeza de Avisos
 * Um aviso só pode ser retirado após **1 (um) mês** da sua aplicação.
 * A retirada depende do pagamento da taxa definida pela Staff e de conduta sem reincidência no período.

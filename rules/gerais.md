@@ -135,6 +135,7 @@ As punições são aplicadas pela Administração de acordo com o histórico e a
 
 * A escala não precisa ser seguida em ordem: infrações graves (hack, RMT, divulgação, preconceito) podem levar direto ao banimento.
 * Os avisos (*strikes*) de organizações seguem o sistema descrito em [Organizações](organizacoes.md).
+* A pena exata de cada infração está na [Tabela de Punições](punicoes.md).
 
 ### 5.2. Denúncias
 * Toda denúncia é feita por ticket no Discord, com vídeo, em até **48 horas** após o ocorrido.

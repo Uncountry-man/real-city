@@ -7,7 +7,7 @@ import { homedir } from "node:os";
 
 const root = resolve(fileURLToPath(new URL("..", import.meta.url)));
 const source = resolve(process.argv[2] ?? join(homedir(), "Área de trabalho/rules/rules"));
-const MODULES = ["gerais", "seguranca", "organizacoes", "corporacoes", "territorios", "acoes", "guerras"];
+const MODULES = ["gerais", "seguranca", "organizacoes", "corporacoes", "territorios", "acoes", "guerras", "punicoes"];
 
 await mkdir(join(root, "rules"), { recursive: true });
 for (const name of MODULES) {
