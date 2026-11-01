@@ -15,7 +15,7 @@
  * com o site (ex.: "downloads/real-city.apk").
  */
 window.REAL_CITY_DOWNLOADS = {
-  android: { url: "https://github.com/theus1h/TESTE1/releases/download/145/capital-city-145.apk", version: "", size: "", requirements: "" },
+  android: { url: "https://github.com/theus1h/realcity/releases/download/175/real-city-beta-173.apk", version: "", size: "", requirements: "" },
   ios:     { url: "", version: "", size: "", requirements: "" },
   windows: { url: "", version: "", size: "", requirements: "" },
   capital_android: { url: "https://pub-38ff6d5aed8147dc86c59338cc9e50b6.r2.dev/capital-character-candidate-signed.apk", version: "", size: "", requirements: "" },
